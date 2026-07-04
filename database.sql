@@ -12,7 +12,7 @@ SELECT * FROM users;
 CREATE TABLE transactions (
     trans_id INT PRIMARY KEY AUTO_INCREMENT,
     account_no BIGINT,
-    action ENUM('Debit','Credit') NOT NULL,
+    action ENUM('Debit','Credit') NOT NULL, 
     amount DOUBLE NOT NULL,
     trans_date DATETIME NOT NULL,
     FOREIGN KEY (account_no) REFERENCES users(account_no) ON DELETE CASCADE);
