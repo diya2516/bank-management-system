@@ -1,6 +1,6 @@
 # 🏦 Bank Management System
 
-A **console-based Bank Management System** developed using **Python** and **MySQL**. This project provides secure banking operations through separate **User** and **Admin** modules. Users can manage their bank accounts, while administrators can monitor users and transactions efficiently.
+A **console-based Bank Management System** developed using **Python** and **MySQL**. This project provides secure banking operations through separate **User** and **Admin** modules. Users can manage their bank accounts, while administrators can monitor users and transactions efficiently. 
 
 ---
 
