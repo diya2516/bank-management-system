@@ -21,4 +21,5 @@ CREATE TABLE admin (
     admin_id VARCHAR(50) PRIMARY KEY,
     password VARCHAR(100) NOT NULL);
 SELECT * FROM admin;
-INSERT INTO admin (admin_id, password) VALUES ('admin', 'admin123');
+INSERT INTO admin (admin_id, password) VALUES ('5', 'Jhansi123');
+
