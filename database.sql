@@ -1,5 +1,5 @@
 CREATE DATABASE Bank_manage_sys;
-USE Bank_manage_sys;
+USE Bank_manage_sys; 
 CREATE TABLE users (
     account_no BIGINT PRIMARY KEY AUTO_INCREMENT,  
     name VARCHAR(100) NOT NULL,
