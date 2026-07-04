@@ -11,7 +11,7 @@ ALTER TABLE users AUTO_INCREMENT = 238007537223;
 SELECT * FROM users;
 CREATE TABLE transactions (
     trans_id INT PRIMARY KEY AUTO_INCREMENT,
-    account_no BIGINT,
+    account_no BIGINT, 
     action ENUM('Debit','Credit') NOT NULL, 
     amount DOUBLE NOT NULL,
     trans_date DATETIME NOT NULL,
